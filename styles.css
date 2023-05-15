@@ -1,0 +1,79 @@
+/* https://www.w3schools.com/colors/colors_names.asp */
+/* https://www.w3schools.com/css/css_font.asp */
+
+/* Style entire page */
+html {
+    background-color: lavender;
+}
+
+/* https://fonts.google.com */
+/* https://www.w3schools.com/css/css3_buttons.asp */
+/* https://stackoverflow.com/questions/24467036/make-a-half-row-break-br */
+/* Style menu bar */
+.row {
+    font-family: 'Monoco';
+    font-size: 30px;
+    background-color: lightBlue;
+    text-align: center;
+    cursor: pointer;
+    line-height: 28px;
+}
+
+/* Style links */
+/* https://css-tricks.com/css-basics-styling-links-like-boss/ */
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: navy;
+  }
+
+/* Style heading */
+h3 {
+    text-align: center;
+    font-size: 64px;
+    color: purple;
+    background-color: lavender;
+    text-decoration: none;
+}
+
+/* Style body */
+body {
+    background-color: lavender;
+    text-align: center;
+    font-family: 'Monoco';
+    font-size: 24px;
+}
+
+/* https://www.w3schools.com/css/css3_images.asp */
+/* Style images */
+img {
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Style nav bar on recipes page */
+nav {
+    font-size: 28px;
+    font-family: 'Monoco';
+}
+
+
+/* Style card headers */
+.card-header {
+    color: black;
+    border-color: teal;
+    font-size: 40px;
+    text-decoration: bold;
+    background-color: transparent;
+    border: none;
+}
+
+/* Style cards */
+.card {
+    color: purple;
+    border-color: teal;
+    background-color: transparent;
+    border: none;
+}
